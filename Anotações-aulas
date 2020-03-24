@@ -1,0 +1,22 @@
+
+---> AULA 01 <---
+Instalação do Node.JS (Backend)
+Intalação do Chocolatey para Windows
+
+-> Utilizar PowerShell
+
+Códigos ( Chocolatey)
+
+ Get-ExecutionPolicy (Se apresentar "required")
+ Set-ExecutionPolicy AllSigned (Ativa o required)
+ (código para instalar)
+ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+Instalação do React(Frontend)
+-> instalação por código externo
+
+Entra na pasta e escreve
+
+create-react-app (nome da pasta que vai ser instalado)
+
+-> Instalar Expo no celular para ter acessos a API para o REact Native
